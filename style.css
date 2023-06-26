@@ -1,0 +1,183 @@
+ /*<!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  */
+
+ body {
+   background: #d35ce6;
+   width: 375px;
+   height: 768px;
+ }
+
+ .moldura_conteiner {
+   display: flex;
+   flex-flow: column wrap;
+   width: 327px;
+   height: 643;
+ }
+
+ .imagem_topo {
+   width: 237px;
+   height: 180px;
+   margin-left: 3.5rem;
+   margin-top: -6rem;
+
+
+
+ }
+
+ .perguntas_respostas {
+   width: 327px;
+   height: 635px;
+   flex-shrink: 0;
+   margin-left: 1.3rem;
+   margin-top: 10rem;
+
+   border-radius: 23px;
+   background: #FFF;
+   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+ }
+
+ .titulo {
+   margin-top: 1rem;
+   font-weight: 700;
+   font-size: 25px;
+   text-align: center;
+   margin-bottom: 2rem;
+ }
+
+ .pergunta_com_seta {
+   display: flex;
+   justify-content: space-evenly;
+
+ }
+
+ .seta {
+   margin-left: 5px;
+ }
+
+ .pregunta {
+   line-height: 50px;
+   text-align: center;
+   font-size: 18px;
+
+ }
+
+ .attribution {
+   text-align: center;
+   font-size: 15px;
+   margin-top: 3rem;
+ }
+
+ @media (min-width: 400px) {
+
+
+   .perguntas_respostas {
+     margin-left: 3rem;
+   }
+
+   .attribution {
+     margin-left: 3rem;
+   }
+
+ }
+
+ @media (min-width: 500px) {
+
+   .perguntas_respostas {
+     margin-left: 6rem;
+   }
+
+   .attribution {
+     margin-left: 6rem;
+   }
+ }
+
+ @media (min-width: 600px) {
+   .perguntas_respostas {
+     margin-left: 8rem;
+   }
+
+   .attribution {
+     margin-left: 8rem;
+   }
+
+ }
+
+ @media (min-width: 700px) {
+   .perguntas_respostas {
+     margin-left: 11rem;
+   }
+
+   .attribution {
+     margin-left: 11rem;
+   }
+
+ }
+
+ @media (min-width: 800px) {
+   .perguntas_respostas {
+     width: 727px;
+     height: 635px;
+     flex-shrink: 0;
+     margin-left: 2.5rem;
+   }
+
+   .coluna_de_texto {
+     margin-left: 20rem;
+     margin-top: -24rem;
+   }
+
+   .imagem_topo {
+     width: 400px;
+     height: 280px;
+     margin-left: -1.5rem;
+     margin-top: 8rem;
+
+   }
+
+   .attribution {
+     margin-left: 2.5rem;
+   }
+
+ }
+
+ @media (min-width: 1000px){
+
+  .perguntas_respostas {
+    margin-left: 11rem;
+  }
+
+  .attribution {
+    margin-left: 11rem;
+  }
+
+ }
+
+ @media (min-width: 1200px){
+
+  .perguntas_respostas {
+    margin-left: 15rem;
+  }
+
+  .attribution {
+    margin-left: 15rem;
+  }
+
+ }
+
+ @media (min-width: 1400px){
+
+  .perguntas_respostas {
+    margin-left: 22rem;
+    margin-top: 15rem;
+  }
+
+  .attribution {
+    margin-left: 22rem;
+  }
+
+ }
+

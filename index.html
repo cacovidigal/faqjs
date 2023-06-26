@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+
+</head>
+
+<body>
+
+  <div class="moldura_conteiner">
+
+
+    <section class="perguntas_respostas">
+
+      <div>
+        <img class="imagem_topo" src="./illustration-woman-online-mobile.svg">
+      </div>
+
+      <div class="coluna_de_texto">
+
+        <h1 class="titulo" id="titulo">FAQ</h1>
+
+        <div class="pergunta_com_seta">
+          <p class="pregunta" id="pregunta_1">How many team members can I invite?
+            <img class="seta" id="seta" src="./icon-arrow-down.svg" onclick="exibirResposta_1()">
+            <!-- [essa resposta vai no JS] You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.-->
+  
+          </p>
+        </div>
+        <div id="resposta_1"></div>
+  
+  
+        <div class="pergunta_com_seta">
+          <p class="pregunta" id="pergunta_2">What is the maximum file upload size?
+            <img class="seta" id="seta" src="./icon-arrow-down.svg" onclick="exibirResposta_2()">
+            <!--[essa resposta vai no JS] No more than 2GB. All files in your account must fit your allotted storage space.-->
+          </p>
+        </div>
+        <div id="resposta_2"></div>
+  
+        <div class="pergunta_com_seta">
+          <p class="pregunta" id="pergunta_3">How do I reset my password?
+            <img class="seta" id="seta" src="./icon-arrow-down.svg" onclick="exibirResposta_3()">
+            <!--[essa resposta vai no JS] Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.-->
+          </p>
+        </div>
+        <div id="resposta_3"></div>
+  
+        <div class="pergunta_com_seta">
+          <p class="pregunta" id="pergunta_4">Can I cancel my subscription?
+            <img class="seta" id="seta" src="./icon-arrow-down.svg" onclick="exibirResposta_4()">
+            <!--[essa resposta vai no JS] Yes! Send us a message and we will process your request no questions asked. -->
+          </p>
+        </div>
+        <div id="resposta_4"></div>
+  
+        <div class="pergunta_com_seta">
+          <p class="pregunta" id="pergunta_5">Do you provide additional support?
+            <img class="seta" id="seta" src="./icon-arrow-down.svg" onclick="exibirResposta_5()">
+            <!--[essa resposta vai no JS] Chat and email support is available 24/7. Phone lines are open during normal business hours.-->
+          </p>
+        </div>
+        <div id="resposta_5"></div>
+  
+  
+        
+      </div>
+      
+
+      
+
+
+    </section>
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Caco Vidigal</a>.
+    </div>
+
+  </div>
+
+
+  <script src="./respostas.js"></script>
+</body>
+
+</html>
